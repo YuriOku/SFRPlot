@@ -195,6 +195,7 @@ int main(int argc, char *argv[])
 	}
 	fprintf(gp,"set xlabel 'time'\n");
 	fprintf(gp,"set ylabel 'SFR (Msun/yr)\n");
+	fprintf(gp,"set key noenhanced\n");
 	//fprintf(gp,"set xrange [%f:%f]\n",amin,amax);
 	//fprintf(gp,"set yrange [%f:%f]\n",sfrmin,sfrmax);
 	if (zopt == 1){
